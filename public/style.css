@@ -1,0 +1,43 @@
+.body{
+    margin: 0%;
+    padding: 0%;
+}
+.main-container{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+}
+.video{
+    margin: 20px;
+    width: 40%;
+}
+.btn{
+    color: black;
+    font-size: 1.5rem;
+    padding: 10px;
+    background-color: lightgreen;
+    border: solid black 2px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: transparent;
+}
+
+@media screen and (max-width : 700px) {
+    .video{
+        width: 60%;
+    }
+}
+@media screen and (max-width : 500px) {
+    .video{
+        width: 80%;
+    }
+}
+@media screen and (max-width : 400px) {
+    .video{
+        width: 100%;
+    }
+}
